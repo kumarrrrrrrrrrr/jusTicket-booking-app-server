@@ -38,6 +38,7 @@ const movieSchema = mongoose.Schema({
     poster:{type:String},
     categori:{type:String},
     duration:{type:String},
+    like:{type:String}
 })
 
 const ticketSchema = mongoose.Schema({
